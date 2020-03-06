@@ -1,0 +1,29 @@
+/* CSS para de adaptado*/
+
+h1:hover{ 
+	color:orange;
+} 
+
+body{
+	margin:20px;
+	border-style: dotted; 
+	border-color:black;
+
+}
+
+#mundo{
+	background-image: url("world.jpg"); /* colocar imagem de fundo */
+	background-size:50px 50px; /* width-largura | height-altura */
+	height:90px;
+	margin:auto;
+	background-repeat:no-repeat;
+	color:black;
+	background-position: bottom center; /* local onde o background vai ficar */
+	margin-bottom:22.5%;
+	 
+}
+#mundo:hover{
+	background-image: url("world2.jpg"); /* colocar imagem de fundo */
+	color:orange;
+}
+
